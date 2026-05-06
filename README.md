@@ -20,3 +20,16 @@ chmod +x ~/.config/hyprlock/scripts/*.sh
 ```
 Used with Super + L
 
+
+
+Adjustments to the config : 
+- Pb with time sync, ran those cmds and it worked : 
+
+``` bash 
+timedatectl
+timedatectl set-ntp true
+sudo timedatectl set-local-rtc 0
+sudo hwclock --systohc
+```
+
+z
