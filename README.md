@@ -1,5 +1,7 @@
 ### v1.1
 
+![desktop](image.png)
+
 - added hyprland autostart with sddm service 
 ``` bash
 pacman -S sddm
@@ -73,3 +75,6 @@ Editing the exec line with
 This forces Discord to use native Wayland rendering instead of XWayland, fixing blurry rendering on Hyprland.
 
 same with spotify //
+
+
+pacman -S noto-fonts-emojis
